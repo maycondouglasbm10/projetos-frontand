@@ -39,6 +39,10 @@ body{
     padding-left: 30px;
 }
 
+.group li a{
+    color: #551A8B;
+}
+
 .underline {
     position: relative;
     display: inline-block;

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0c0ce94d;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title h1{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+}
+
+.group{
+    display: flex;
+    
+}
+
+.group li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+}
+
+form{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 15px;
+    height: 75vh;
+    width: 90vh;
+
+}
+
+fieldset{
+    border: 2px solid;
+    color: #0c0ce94d;
+    border-radius: 5px;
+    height: 70vh;
+}
+
+legend{
+    font-weight: 600;
+    color: rgba(10, 10, 141, 0.568);
+    border: 2px solid #0c0ce94d;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    top: 5px;
+    
+}
+
+.input-box input{
+    outline: none;
+}
+
+.input-box p{
+    margin-top: 10px;
+}
+
+.input-box label{
+    color: #551A8B;
+    font-weight: 600;
+}
+
+.input-user{
+    width: 450px;
+}
+
+.input-prof input{
+    width: 250px;
+}
+
+.input-cpf input{
+    width: 100px;
+}
+
+.input-cep input{
+    width: 100px;
+}
+
+#house{
+    width: 300px;
+}
+
+#number{
+    width: 50px;
+}
+
+#city{
+    width: 300px;
+}
+
+#field{
+    width: 100px;
+}
+
+.input-tel input{
+    width: 120px;
+}
+
+.input-mail input{
+    width: 400px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    gap: 2rem;
+}
+
+.btn{
+    position: relative;
+    padding: 5px;
+    color: #551A8B;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color o.3s;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #551A8B;
+    transition: right 0.5s;
+    z-index: 0;
+}
+
+.btn span {
+  position: relative;
+  z-index: 1; 
+    transition: color 0.5s; 
+}
+
+.btn:hover::before{
+    right: 0;
+}
+
+.btn:hover span {
+  color: aliceblue;         
+}
+
+

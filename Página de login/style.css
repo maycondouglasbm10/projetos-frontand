@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/img.jpg);
+    background: url(img/fundo-geometrico-escuro-com-espaco-de-copia.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -23,6 +23,7 @@ body{
     color: white;
     padding: 10px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
 }
 

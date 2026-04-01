@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #0c0ce94d;
+    background-color: #0a7fdfe7;
 }
 
 .header{
@@ -22,6 +22,7 @@ body{
 
 .title h1{
     font-family: "Montserrat", sans-serif;
+    color: #fff;
 }
 
 .header nav{
@@ -40,7 +41,7 @@ body{
 }
 
 .group li a{
-    color: #551A8B;
+    color: #fff;
 }
 
 .underline {
@@ -78,6 +79,7 @@ body{
 
 form{
     background-color: aliceblue;
+    box-shadow: 10px 15px 20px;
     border-radius: 5px;
     padding: 15px;
     height: 75vh;
@@ -87,15 +89,15 @@ form{
 
 fieldset{
     border: 2px solid;
-    color: #0c0ce94d;
+    color: #0a7fdfe7;
     border-radius: 5px;
-    height: 70vh;
+    height: 75vh;
 }
 
 legend{
     font-weight: 600;
-    color: rgba(10, 10, 141, 0.568);
-    border: 2px solid #0c0ce94d;
+    color: #0a7fdfe7;
+    border: 2px solid #0a7fdfe7;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -116,7 +118,7 @@ legend{
 }
 
 .input-box label{
-    color: #551A8B;
+    color: #0a7fdfe7;
     font-weight: 600;
 }
 
@@ -128,24 +130,16 @@ legend{
     width: 250px;
 }
 
-.input-cpf input{
+.input-cpf input, .input-cep input{
     width: 100px;
 }
 
-.input-cep input{
-    width: 100px;
-}
-
-#house{
+#house, #city{
     width: 300px;
 }
 
 #number{
     width: 50px;
-}
-
-#city{
-    width: 300px;
 }
 
 #field{
@@ -171,7 +165,7 @@ legend{
 .btn{
     position: relative;
     padding: 5px;
-    color: #551A8B;
+    color: #0a7fdfe7;
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
@@ -185,7 +179,7 @@ legend{
     right: 100%;
     width: 100%;
     height: 100%;
-    background-color: #551A8B;
+    background-color: #0a7fdfe7;
     transition: right 0.5s;
     z-index: 0;
 }

@@ -7,7 +7,7 @@ O objetivo é demonstrar a criação de um formulário moderno e funcional sem o
 
 ## 🖥️ Demonstração
 
-![Tela](https://github.com/maycondouglasbm10/projetos-frontand/blob/main/Captura%20de%20tela%202025-10-05%20122306.png?raw=true)
+![Tela](https://imgur.com/DMrhX1N.png)
 
 > 💡 A imagem acima é apenas ilustrativa.
 
@@ -73,7 +73,6 @@ Ou, se preferir, use uma extensão como Live Server no VS Code para visualizar a
 🧑‍💻 Autor
 
 Maycon Douglas
-💼 GitHub
 
 ---
 

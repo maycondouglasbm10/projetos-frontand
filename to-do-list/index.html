@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU TO-DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="deskbar">
+            <div class="desk-title">
+                <h2>To do List</h2>
+            </div>
+    </div>
+    <div class="main">
+        <div class="desk">
+            <h3>Meu dia</h3>
+            <p id="data"></p>
+        </div>
+        <div class="adicionar">
+            <div class="bloco">
+                <input type="text" name="tarefa" id="bloco" placeholder="Adicionar uma tarefa">
+            </div>
+            <div class="tarefas-lista">
+                <div class="conclusao">
+                    <div class="calend-button">
+                        <div class="calendario">
+                            <input type="date" name="calendario" id="calendar">
+                        </div>
+                        <div class="button-add">
+                            <button id="add" onclick="adicionar()">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarefas">
+                    <div class="lista-tarefas">
+                        <ul id="lista"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

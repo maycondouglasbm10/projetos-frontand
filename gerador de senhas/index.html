@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!--diz que o documento é HTML5--> 
+<html lang="pt-br"> <!-- Define o idioma do documento -->
 
-<head>
-    <meta charset="UTF-8">
+<head> <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8"> <!-- permite usar acentos-->
     <title>Gerador de Senhas</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- carrega 0 tailwind direto da internet sem instalar-->
 </head>
 
 <body class="bg-gray-900 flex items-center justify-center h-screen">
 
     <div class="bg-gray-800 p-6 rounded-2xl shadow-lg w-80 text-white">
-
         <h1 class="text-2xl font-bold mb-4 text-center">
             🔐 Gerador de Senhas
         </h1>
-
         <input id="password" type="text" class="w-full p-2 mb-4 rounded bg-gray-700 text-center outline-none" readonly>
-
         <input id="length" type="number" placeholder="Tamanho (ex: 12)" class="w-full p-2 mb-4 rounded bg-gray-700 outline-none text-center">
-
         <div class="space-y-2 mb-4">
             <label><input type="checkbox" id="uppercase"> Maiúsculas</label><br>
             <label><input type="checkbox" id="numbers"> Números</label><br>
             <label><input type="checkbox" id="symbols"> Símbolos</label>
         </div>
-
         <button onclick="generatePassword()" class="w-full bg-blue-500 hover:bg-blue-600 p-2 rounded mb-2">
             Gerar
         </button>

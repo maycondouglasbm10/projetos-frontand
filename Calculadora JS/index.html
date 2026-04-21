@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora | Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-orange-700 h-86 w-72 rounded-lg shadow-lg p-4">
+            <div class="display">
+                <input type="text" id="display" class="bg-gray-200 border border-gray-300 rounded py-2 px-9 focus:outline-none focus:ring-2 focus:ring-blue-500" disabled>
+            </div>
+            <div class="buttons grid grid-cols-4 gap-2 mt-4">
+                <button value="7" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao1">7</button>
+                <button value="8" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao2">8</button>
+                <button value="9" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao3">9</button>
+                <button value="/" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded" id="botao4">÷</button>
+                <button value="4" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao5">4</button>
+                <button value="5" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao6">5</button>
+                <button value="6" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao7">6</button>
+                <button value="*" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded" id="botao8">×</button>
+                <button value="1" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao9">1</button>
+                <button value="2" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao10">2</button>
+                <button value="3" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao11">3</button>
+                <button value="-" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded" id="botao12">-</button>
+                <button value="0" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao14">0</button>
+                <button value="." class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded" id="botao15">.</button>
+                <button id="clear" value="C" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded" id="botao16">C</button>
+                <button value="+" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded" id="botao13">+</button>
+                <button id="equals" value="=" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 col-span-4 rounded" id="botao17">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
